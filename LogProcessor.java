@@ -83,7 +83,7 @@ public class LogProcessor {
     public static void main(String[] args) {
         LogProcessor processor = new LogProcessor();
 
-        String logFilePath = "src/log-data.csv";  // Make sure the file is in the project root directory or adjust the path
+        String logFilePath = "src/log-data.csv"; 
 
         processor.readLogs(logFilePath);
         processor.processLogs();
